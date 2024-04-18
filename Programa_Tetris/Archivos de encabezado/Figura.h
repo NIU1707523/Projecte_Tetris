@@ -40,8 +40,8 @@ typedef enum
 class Figura
 {
 public:
-    Inicialitza_Figura();
-    Inicialitza_Figura_Tipus();
+    Inicialitza_Figura(TipusFigura t);
+    Inicialitza_Figura_Tipus(TipusFigura t, int col, const int& fil);
     getPosicioActual(const int &n) const {return = m_Posicio_actual[n]};
     getTamanyFigura(const int &n) { return = m_TamanyFigura[n]};;
 
