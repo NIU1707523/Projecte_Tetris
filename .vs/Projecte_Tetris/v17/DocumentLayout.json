@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Tauler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programa_Tetris\\Archivos de encabezado\\Tauler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programa_Tetris\\Archivos de origen\\Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Joc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programa_Tetris\\Archivos de encabezado\\Joc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Figura.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programa_Tetris\\Archivos de encabezado\\Figura.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programa_Tetris\\Archivos de origen\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Joc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programa_Tetris\\Archivos de origen\\Joc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Figura.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programa_Tetris\\Archivos de origen\\Figura.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tauler.h",
+              "DocumentMoniker": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Tauler.h",
+              "RelativeDocumentMoniker": "Programa_Tetris\\Archivos de encabezado\\Tauler.h",
+              "ToolTip": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Tauler.h",
+              "RelativeToolTip": "Programa_Tetris\\Archivos de encabezado\\Tauler.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-18T20:06:09.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Joc.h",
+              "DocumentMoniker": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Joc.h",
+              "RelativeDocumentMoniker": "Programa_Tetris\\Archivos de encabezado\\Joc.h",
+              "ToolTip": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Joc.h",
+              "RelativeToolTip": "Programa_Tetris\\Archivos de encabezado\\Joc.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-18T20:06:03.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Figura.h",
+              "DocumentMoniker": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Figura.h",
+              "RelativeDocumentMoniker": "Programa_Tetris\\Archivos de encabezado\\Figura.h",
+              "ToolTip": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de encabezado\\Figura.h",
+              "RelativeToolTip": "Programa_Tetris\\Archivos de encabezado\\Figura.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-18T20:06:01.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tauler.cpp",
+              "DocumentMoniker": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Tauler.cpp",
+              "RelativeDocumentMoniker": "Programa_Tetris\\Archivos de origen\\Tauler.cpp",
+              "ToolTip": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Tauler.cpp",
+              "RelativeToolTip": "Programa_Tetris\\Archivos de origen\\Tauler.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T20:05:58.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\main.cpp",
+              "RelativeDocumentMoniker": "Programa_Tetris\\Archivos de origen\\main.cpp",
+              "ToolTip": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\main.cpp",
+              "RelativeToolTip": "Programa_Tetris\\Archivos de origen\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T20:05:56.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Joc.cpp",
+              "DocumentMoniker": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Joc.cpp",
+              "RelativeDocumentMoniker": "Programa_Tetris\\Archivos de origen\\Joc.cpp",
+              "ToolTip": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Joc.cpp",
+              "RelativeToolTip": "Programa_Tetris\\Archivos de origen\\Joc.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T20:05:55.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Figura.cpp",
+              "DocumentMoniker": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Figura.cpp",
+              "RelativeDocumentMoniker": "Programa_Tetris\\Archivos de origen\\Figura.cpp",
+              "ToolTip": "C:\\Users\\Bernii\\source\\repos\\Projecte_Tetris\\Programa_Tetris\\Archivos de origen\\Figura.cpp",
+              "RelativeToolTip": "Programa_Tetris\\Archivos de origen\\Figura.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T20:05:54.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
