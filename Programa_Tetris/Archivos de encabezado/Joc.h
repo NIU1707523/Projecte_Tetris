@@ -16,6 +16,8 @@ public:
 	void escriuTauler(const string& nomFitxer);
 
 private:
+	Tauler m_Tauler;
+	Figura m_Figura_a;
 };
 
 #endif
