@@ -1,6 +1,17 @@
 #include "Figura.h"
 
-Figura::Inicialitza_Figura_Tipus(TipusFigura t, int col, const int &fil)
+void Figura::FormaZero()
+{
+	for (int i = 0; i < m_TamanyFigura[0]; i++)
+	{
+		for (int j = 0; j < m_TamanyFigura[1]; j++)
+		{
+			m_HitBoxFigura[i][j] = 0;
+		}
+	}
+}
+
+Figura::Inicialitza_Figura_Tipus(TipusFigura t, int col, const int& fil)
 {
 	m_TpusFigura = t;
 	DireccioGir = 0;
@@ -15,40 +26,134 @@ Figura::Inicialitza_Figura(TipusFigura t)
 	{
 	case FIGURA_O:
 	{
+		m_TamanyFigura[0] = 2;
+		m_TamanyFigura[1] = 2;
+		FormaZero();
+		m_HitBoxFigura[0][0] = 1;
+		m_HitBoxFigura[0][1] = 1;
+		m_HitBoxFigura[1][0] = 1;
+		m_HitBoxFigura[1][1] = 1;
+		m_ColorFigura = COLOR_GROC;
 		break;
 	}
 	case FIGURA_I:
 	{
+		m_TamanyFigura[0] = 4;
+		m_TamanyFigura[1] = 4;
+		FormaZero();
+		m_HitBoxFigura[1][0] = 1;
+		m_HitBoxFigura[1][1] = 1;
+		m_HitBoxFigura[1][2] = 1;
+		m_HitBoxFigura[1][3] = 1;
+		m_ColorFigura = COLOR_BLAUCEL;
 		break;
 	}
 	case FIGURA_T:
 	{
+		m_TamanyFigura[0] = 3;
+		m_TamanyFigura[1] = 3;
+		FormaZero();
+		m_HitBoxFigura[0][1] = 1;
+		m_HitBoxFigura[1][0] = 1;
+		m_HitBoxFigura[1][1] = 1;
+		m_HitBoxFigura[1][2] = 1;
+		m_ColorFigura = COLOR_MAGENTA;
 		break;
 	}
 	case FIGURA_J:
 	{
+		m_TamanyFigura[0] = 3;
+		m_TamanyFigura[1] = 3;
+		FormaZero();
+		m_HitBoxFigura[0][0] = 1;
+		m_HitBoxFigura[1][0] = 1;
+		m_HitBoxFigura[1][1] = 1;
+		m_HitBoxFigura[1][2] = 1;
+		m_ColorFigura = COLOR_BLAUFOSC;
 		break;
 	}
 	case FIGURA_L;
 	{
-		break;
-	}
-	case FIGURA_J:
-	{
+		m_TamanyFigura[0] = 3;
+		m_TamanyFigura[1] = 3;
+		FormaZero();
+		m_HitBoxFigura[0][2] = 1;
+		m_HitBoxFigura[1][0] = 1;
+		m_HitBoxFigura[1][1] = 1;
+		m_HitBoxFigura[1][2] = 1;
+		m_ColorFigura = COLOR_TARONJA;
 		break;
 	}
 	case FIGURA_Z:
 	{
+		m_TamanyFigura[0] = 3;
+		m_TamanyFigura[1] = 3;
+		FormaZero();
+		m_HitBoxFigura[0][1] = 1;
+		m_HitBoxFigura[1][0] = 1;
+		m_HitBoxFigura[1][1] = 1;
+		m_HitBoxFigura[1][2] = 1;
+		m_ColorFigura = COLOR_VERMELL;
 		break;
 	}
 	case FIGURA_S:
 	{
+		m_TamanyFigura[0] = 3;
+		m_TamanyFigura[1] = 3;
+		FormaZero();
+		m_HitBoxFigura[0][1] = 1;
+		m_HitBoxFigura[0][2] = 1;
+		m_HitBoxFigura[1][0] = 1;
+		m_HitBoxFigura[1][1] = 1;
+		m_ColorFigura = COLOR_VERD;
 		break;
 	}
 	default:
+		cout << "¡ERROR - Aquesta figura no existeix!" << endl;
 		break;
 	}
 }
 
+void Figura::GirarFigura(DireccioGir DirGir)
+{
+	if (DirGir == 0) //Gir Horari
+	{
+		int c_matriu[3][3];
 
-//Falta funcio de gir;;
+		for (int i = 0; i < 3; i++)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				c_matriu[i][j] = proba[i][j];
+			}
+		}
+
+		for (int i = 0; i < 3; i++)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				proba[i][j] = c_matriu[2 - j][i];
+			}
+		}
+	}
+	else //Gir AntiHorari
+	{
+		int c_matriu[3][3];
+
+		for (int i = 0; i < 3; i++)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				c_matriu[i][j] = proba[i][j];
+			}
+		}
+
+		for (int i = 0; i < 3; i++)
+		{
+			for (int j = 0; j < 3; j++)
+			{
+				proba[i][j] = c_matriu[j][2 - i];
+			}
+		}
+	}
+}

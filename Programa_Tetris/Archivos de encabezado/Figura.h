@@ -43,12 +43,13 @@ public:
     Inicialitza_Figura(TipusFigura t);
     Inicialitza_Figura_Tipus(TipusFigura t, int col, const int& fil);
     getPosicioActual(const int &n) const {return = m_Posicio_actual[n]};
-    getTamanyFigura(const int &n) { return = m_TamanyFigura[n]};;
+    getTamanyFigura(const int &n) { return = m_TamanyFigura[n]};
+    void GirarFigura(DireccioGir DirGir);
+    void FormaZero();
 
 private:
     TipusFigura m_TpusFigura;
     ColorFigura m_ColorFigura;
-    DireccioGir m_gir;
     int m_HitBoxFigura[MAX_ALCADA][MAX_AMPLADA];
     int m_Posicio_actual[2]; // [0] = posicio_fila, [1] = posicio_columne;
     int m_TamanyFigura[2]; // [0] = tamany x, [1] = tamany y;
