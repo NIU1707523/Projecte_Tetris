@@ -157,3 +157,13 @@ void Figura::GirarFigura(DireccioGir DirGir)
 		}
 	}
 }
+
+void Figura::BaixaFigura()
+{
+	m_Posicio_actual[0] += 1;
+}
+
+void Figura::mouFigura(int Direccio)
+{
+	int m_Posicio_actual[1] += Direccio;
+}

@@ -45,6 +45,8 @@ public:
     getPosicioActual(const int &n) const {return = m_Posicio_actual[n]};
     getTamanyFigura(const int &n) { return = m_TamanyFigura[n]};
     void GirarFigura(DireccioGir DirGir);
+    void mouFigura(int Direccio); // -1 = esquerra, +1 Dreta;
+    void BaixaFigura();
     void FormaZero();
 
 private:
