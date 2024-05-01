@@ -1,35 +1,39 @@
 #include "Joc.h"
 
-void inicialitza(const string& nomFitxer)
+void Joc::inicialitza(const string& nomFitxer)
 {
 	ifstream fitxer;
-
 	fitxer.open(nomFitxer);
-
 	if (fitxer.is_open())
 	{
-		int fil, col, gir;
-		TipusFigura tip
+		int fil, col, gir, tip;
 		fitxer >> tip >> fil >> col >> gir;
-		m_Figura_a.Inicialitza_Figura_Tipus(tip, col, fil) 	//falta implementar gir; 
+		m_Figura_a.Inicialitza_Figura_Tipus(tip, col, fil);
 
-		//falta implementar totes funcions classe tauler;;
+		for (int i = 0; i < length; i++)
+		{
+			m_Figura_a.GirarFigura(GIR_HORARI);
+		}
+
 	}
 }
 
-bool giraFigura(DireccioGir direccio)
+bool Joc::giraFigura(DireccioGir direccio)
 {
 
 }
-bool mouFigura(int dirX)
+
+bool Joc::mouFigura(int direccio)
 {
 
 }
-int baixaFigura()
+
+int Joc::baixaFigura()
 {
 
 }
-void escriuTauler(const string& nomFitxer)
+
+void Joc::escriuTauler(const string& nomFitxer)
 {
 
 }
